@@ -1,52 +1,64 @@
-[
+{
+  "items": [
+    {
+      "id": 1,
+      "listId": 1,
+      "title": "Milk",
+      "quantity": 1,
+      "Category": "WholeMilk",
+      "unit_price": 6.99,
+      "Discount": 1.0,
+      "price": 4.29
+    },
+    {
+      "id": 2,
+      "listId": 1,
+      "title": "Egg",
+      "quantity": 12,
+      "Category": "OrganicFood",
+      "unit_price": 3.99,
+      "Discount": 1.0,
+      "price": 3.99
+    },
+    {
+      "id": 3,
+      "listId": 1,
+      "title": "Salad",
+      "quantity": 1,
+      "Category": "OrganicFood",
+      "unit_price": 5.00,
+      "Discount": 0.8,
+      "price": 4.00
+    },
+    {
+      "id": 4,
+      "listId": 2,
+      "title": "Halloween mask",
+      "quantity": 2,
+      "Category": "Clothes",
+      "unit_price": 19.99,
+      "Discount": 1.0,
+      "price": 38.98
+    },
+    {
+      "id": 5,
+      "listId": 2,
+      "title": "Halloween glass",
+      "quantity": 1,
+      "Category": "Glasses",
+      "unit_price": 13.99,
+      "Discount": 1.0,
+      "price": 13.99
+    }
+  ],
+  "lists": [
   {
     "id": 1,
-    "listId": 1,
-    "title": "Milk",
-    "quantity": 1,
-    "Category": "WholeMilk",
-    "unit_price": 6.99,
-    "Discount": 1.0,
-    "price": 4.29
+    "title": "Star Market"
   },
   {
     "id": 2,
-    "listId": 1,
-    "title": "Egg",
-    "quantity": 12,
-    "Category": "OrganicFood",
-    "unit_price": 3.99,
-    "Discount": 1.0,
-    "price": 3.99
-  },
-  {
-    "id": 3,
-    "listId": 1,
-    "title": "Salad",
-    "quantity": 1,
-    "Category": "OrganicFood",
-    "unit_price": 5.00,
-    "Discount": 0.8,
-    "price": 4.00
-  },
-  {
-    "id": 4,
-    "listId": 2,
-    "title": "Halloween mask",
-    "quantity": 2,
-    "Category": "Clothes",
-    "unit_price": 19.99,
-    "Discount": 1.0,
-    "price": 38.98
-  },
-  {
-    "id": 5,
-    "listId": 2,
-    "title": "Halloween glass",
-    "quantity": 1,
-    "Category": "Glasses",
-    "unit_price": 13.99,
-    "Discount": 1.0,
-    "price": 13.99
+    "title": "Halloween Goods"
   }
-]
+  ]
+}
